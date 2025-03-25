@@ -10,3 +10,8 @@ car.SetSpeed(100);//Speed adjustable
 Minibus minibus = new Minibus();
 minibus.Speed = 100;
 Console.WriteLine("Minibus speed:" + minibus.Speed);
+
+Truck truck = new Truck();
+
+//truck.Barand="Fiat"; Error! "Brand" is read only
+Console.WriteLine("Truck brand : " + truck.Barand);
