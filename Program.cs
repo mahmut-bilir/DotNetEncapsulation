@@ -22,3 +22,5 @@ user.Password = "123456";
 Bicycle bicycle = new Bicycle();
 bicycle.Speed = 120;
 Console.WriteLine("Bicycle speed : " + bicycle.Speed);
+
+Console.WriteLine("User name : " + user.Name);

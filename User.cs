@@ -9,4 +9,10 @@ public class User
             password = value;
         }
     }
+
+    public string Name
+    {
+        get;
+        set;
+    } = "Mahmut";
 }
