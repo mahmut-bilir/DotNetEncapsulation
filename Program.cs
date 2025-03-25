@@ -15,3 +15,6 @@ Truck truck = new Truck();
 
 //truck.Barand="Fiat"; Error! "Brand" is read only
 Console.WriteLine("Truck brand : " + truck.Barand);
+User user = new User();
+user.Password = "123456";
+//Console.WriteLine("password : "+user.Password); Error! Password can only be written.
