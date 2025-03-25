@@ -18,3 +18,7 @@ Console.WriteLine("Truck brand : " + truck.Barand);
 User user = new User();
 user.Password = "123456";
 //Console.WriteLine("password : "+user.Password); Error! Password can only be written.
+
+Bicycle bicycle = new Bicycle();
+bicycle.Speed = 120;
+Console.WriteLine("Bicycle speed : " + bicycle.Speed);
